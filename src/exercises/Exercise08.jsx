@@ -5,7 +5,7 @@ const Exercise08 = () => {
   return (
     <div>
       <h1>Exercise08</h1>
-      <p>Content for Exercise08</p>
+        <button onClick={(event) => console.log(event)}>Exibir propriedades SyntheticEvent</button>
     </div>
   );
 };

@@ -1,7 +1,10 @@
 // Exercise11.js
-import React from "react";
+import React, {useEffect} from "react";
 
 const Exercise11 = () => {
+    useEffect(() => {
+        alert('O componente foi renderizado pela primeira vez!');
+    }, []);
   return (
     <div>
       <h1>Exercise11</h1>
